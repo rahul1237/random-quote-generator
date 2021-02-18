@@ -1,0 +1,52 @@
+/* restoring browser effects */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* all same designing effect to the body */
+body{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+h1{
+    font-size: 4em;
+    margin: 1em;
+    margin-bottom: .5em;
+}
+
+button{
+    margin: 2em;
+    width: 15em;
+    height: 5em;
+    color:  rgb(24, 248, 3);
+    background-color: #fff;
+    border: none;
+}
+
+/* styling for paragraph with class guide */
+.guide{
+    font-size: 2.25em;
+    margin-bottom: 1em;
+}
+
+button:hover{
+    background-color: rgb(24, 248, 3);
+    color: #fff;
+}
+
+/* styling for the quote and the author name! */
+
+.quote_out{
+    font-size: 2.25em;
+    color:  rgb(24, 248, 3);
+    margin: 1em;
+    margin-bottom: .5em;
+}
+
+.author_out{
+    color: rgb(24, 248, 3);
+}
